@@ -1,0 +1,61 @@
+div {
+    padding: 2%;
+    margin: 1%;
+}
+
+p {
+    background-color: sienna;
+    padding: 1%;
+    margin: 1%;
+    /* width: 40%; */
+    
+}
+
+
+.flex1 {
+    background-color: teal;
+    display: flex;
+}
+/* cambiando el orden de los hijos:  */
+.flex1 .miniFlex:first-of-type {
+    background-color: tomato;
+    order: 1;
+}
+
+.flex1 .miniFlex:last-of-type {
+    background-color: rgb(84, 87, 129);
+    order: 0;
+}
+
+
+
+/* justify-content es como alinea respecto del eje principal */
+
+
+
+p.miniFlex1 {
+    width: 10%; 
+}
+.flex2 {
+    background-color: rgb(156, 204, 80);
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+   
+}
+
+.flex3 {
+    background-color: rgb(185, 119, 158);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+
+.flex4 {
+    background-color: rgb(189, 73, 73);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}

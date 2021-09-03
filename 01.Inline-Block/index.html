@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>block e inline</title>
+</head>
+<body>
+    <h1>Aprendiendo display</h1>
+
+    <!-- .soyNormal+tab crearia una div con class "soyNnormals". Se puede poner el nombre de cualquier etiqueta al principio, y con *3 seria esa etiqueta + la class que pongamos  -->
+
+    <!-- los 2 son display block -->
+    <div class="soyBlock">
+        <p class="soyBlock">Lorem ipsum <span> dolor sit amet</span>, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptates dolores earum consequuntur aut dolorem voluptas quisquam quidem labore illum, nobis tempore quae laboriosam sapiente porro doloribus iste deleniti culpa excepturi eligendi odit neque nesciunt esse. Eum, illum consectetur dolorem, distinctio cum at, vitae harum saepe et itaque quos voluptate? consectetur adipisicing elit. Sequi, atque.</p>
+    </div>
+
+    <!-- block ocupa el ancho completo,inline el ancho del contenido -->
+    <!-- el p inline -->
+    <div >
+        <p class="soyInline"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nihil voluptatem sed deleniti quam iure veritatis, facilis veniam aperiam quia magni est animi molestias cumque quibusdam modi porro ab magnam?.</p>
+    </div>
+
+        
+    <!-- el div inline -->
+    <div class="soyInline">
+        <p > Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nihil voluptatem sed deleniti quam iure veritatis, facilis veniam aperiam quia magni est animi molestias cumque quibusdam modi porro ab magnam?.</p>
+    </div>
+
+    <!-- el dos inline -->
+    <div class="soyInline">
+        <p class="soyInline"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nihil voluptatem sed deleniti quam iure veritatis, facilis veniam aperiam quia magni est animi molestias cumque quibusdam modi porro ab magnam?.</p>
+    </div>
+
+    <!-- el dos inline -->
+    <div class="soyInline">
+        <p class="soyInline"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nihil voluptatem sed deleniti quam iure veritatis, facilis veniam aperiam quia magni est animi molestias cumque quibusdam modi porro ab magnam?.</p>
+    </div>
+
+    <!-- padre block , hijos uno de cada uno -->
+    <div class="soyBlock">
+        <p class="soyBlock"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nihil voluptatem sed deleniti quam iure veritatis, facilis veniam aperiam quia magni est animi molestias cumque quibusdam modi porro ab magnam?.</p>
+        <p class="soyInline"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nihil voluptatem sed deleniti quam iure veritatis, facilis veniam aperiam quia magni est animi molestias cumque quibusdam modi porro ab magnam?.</p>
+        <p class="soyInlineBlock"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nihil voluptatem sed deleniti quam iure veritatis, facilis veniam aperiam quia magni est animi molestias cumque quibusdam modi porro ab magnam?.</p>
+    </div>
+
+    <h2> Resumiendo:</h2>
+    <ul>
+        <li>padre block, hijo block o inline: se ve bien.</li>
+        <li>padre inline, hijo block o inline: se ve rarito</li>  
+        <li>inlineblock es el intermedio entre ambos porque permite usar el ancho y el alto</li>
+
+    </ul>
+    
+    
+
+</body>
+</html>

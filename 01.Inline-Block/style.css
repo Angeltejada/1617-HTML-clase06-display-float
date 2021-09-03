@@ -1,0 +1,22 @@
+div {
+    background-color: pink;
+    padding: 2%;
+    margin: 3%;
+}
+
+p {
+    background-color: powderblue;
+}
+
+p span {
+    background-color: salmon;
+}
+
+.soyInline {
+    
+    display: inline;
+}
+
+.soyInlineBlock {
+    display: inline-block;
+}
